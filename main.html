@@ -13,7 +13,7 @@
 
 	<section class="form">
 		<h1>Feedback Form</h1>
-		<form>
+		<form method="get">
 			<div>
 				<label for="name">Name</label>
 			<input type="text" name="name" id="name" minlength="3" maxlength="50">
@@ -24,11 +24,7 @@
 			</div>
 			<div>
 				<label for="favColor">Favourite colour</label>
-				<select name="favColor" id="favColor">
-					<option name="favColor">Red</option>
-					<option name="favColor">Green</option>
-					<option name="favColor">Blue</option>
-				</select>
+				<input type="color" id="favColor" name="favColor">
 			</div>
 			<div>
 				<label for="likeness">Likeness</label>

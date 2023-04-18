@@ -11,6 +11,32 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
+	<section class="form">
+		<h1>Feedback Form</h1>
+		<form>
+			<div>
+				<label for="name">Name</label>
+			<input type="text" name="name" id="name" minlength="3" maxlength="50">
+			</div>
+			<div>
+				<label for="portfolio">Webpage</label>
+				<input type="url" name="portfolio" id="portfolio">
+			</div>
+			<div>
+				<label for="favColor">Favourite colour</label>
+				<select name="favColor" id="favColor">
+					<option name="favColor">Red</option>
+					<option name="favColor">Green</option>
+					<option name="favColor">Blue</option>
+				</select>
+			</div>
+			<div>
+				<label for="likeness">Likeness</label>
+				<input type="range" min="1" max="100" name="likeness" id="likeness">
+			</div>
+		</form>
+	</section>
+	
 </body>
 
 </html>
